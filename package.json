@@ -1,0 +1,38 @@
+{
+  "name": "life-reminder",
+  "displayName": "LifeReminder",
+  "description": "Inserts motivational phrase into code",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:life-reminder.insertPhrase"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+      "command": "life-reminder.insertPhrase",
+      "title": "Insert Life Reminder Phrase"
+    }
+  ],
+  "keybindings": [
+      {
+        "command": "life-reminder.insertPhrase",
+        "key": "ctrl+shift+1",
+        "when": "editorTextFocus"
+      }
+    ]
+
+  },
+  "scripts": {
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "vscode": "^1.1.37"
+  }
+}
