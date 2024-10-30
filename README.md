@@ -1,4 +1,4 @@
-#Ipatova Ulyana Yuryevna M3119
+# Ipatova Ulyana Yuryevna M3119
 # Life Reminder
 
 Life Reminder is a simple Visual Studio Code extension that inserts a motivational phrase into your code.
