@@ -1,27 +1,25 @@
-# Ipatova Ulyana Yuryevna M3119
+# Ипатова Ульяна Юрьевна M3119
 # Life Reminder
 
-Life Reminder is a simple Visual Studio Code extension that inserts a motivational phrase into your code.
+Life Reminder - плагин для Visual Studio Code, который при зажатиии горячих клавишь напоминает программисту, что жизнь продолжается, вывводя на экран мотивирующую фразу.
 
-## Features
+## Функциональность
 
-- Press `Ctrl + Shift + 1` to insert "remember that life goes on" at your cursor position.
+- при нажатии `Ctrl + Shift + 1` в файле на месте курсора появляется надпись "remember that life goes on".
 
-## Usage
+## Как использовать
 
-1. Install the extension.
-2. Open any text file.
-3. Press `Ctrl + Shift + 1` to insert the phrase.
+1. Установите плагин.
+2. Откройте любой текстовый файл.
+3. Зажмите `Ctrl + Shift + 1` для вывода фразы.
 
-## Installation
+## Установка
 
-1. Clone this repository.
-2. Open the project in Visual Studio Code.
-3. Press `F5` to launch a new VS Code window with the extension loaded.
+1. Клонируйте репозиторий с проектом.
+2. Откройте проект в Visual Studio Code.
+3. Нажмите `F5` чтобы заспутить новое окно для использования плагина.
 
-## Release Notes
+## Версия 
 
 ### 1.0.0
-
-Initial release of Life Reminder.
 
